@@ -1,0 +1,26 @@
+{
+  "name": "electron-slow-show",
+  "version": "0.1.0",
+  "description": "A minimal Electron application to showcase a slow show() problem",
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc -w",
+    "start": "npm run build && electron ./dist/main.js"
+  },
+  "repository": "",
+  "keywords": [
+    "Electron",
+    "demo",
+    "typescript",
+    "bug"
+  ],
+  "author": "Ivan",
+  "license": "CC0-1.0",
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^3.0.0",
+    "@typescript-eslint/parser": "^3.0.0",
+    "electron": "^9.0.0",
+    "eslint": "^7.0.0",
+    "typescript": "^3.9.3"
+  }
+}
