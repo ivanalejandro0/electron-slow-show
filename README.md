@@ -1,6 +1,7 @@
 # Electron bug reproduction example
 
-This is a minimal reproduction example of an Electron bug.
+This is a minimal reproduction example of an Electron bug, see
+https://github.com/electron/electron/issues/23730
 
 The `window.show()` takes around 2 seconds to actually show the window.
 
